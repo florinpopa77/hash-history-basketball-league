@@ -1,6 +1,6 @@
 import React from 'react';
 import Sidebar from './Sidebar';
-import { Route, Link, useParams } from 'react-router-dom';
+import { Route, Link } from 'react-router-dom';
 import { getPlayers } from '../api';
 import { parse } from 'query-string';
 import slug from 'slug';
